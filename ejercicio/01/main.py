@@ -27,3 +27,5 @@ def menu():
 
 if __name__ == "__main__":
     menu()
+
+# Este es un ejemplo para ejercicio grupal 1
