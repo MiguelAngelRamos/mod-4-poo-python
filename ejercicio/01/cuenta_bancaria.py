@@ -13,6 +13,7 @@ class CuentaBancaria:
 
     def retirar(self, cantidad):
         if 0 < cantidad <= self.__saldo:
+            # self._saldo = self.saldo - cantidad
             self.__saldo -= cantidad
             print(f"Retiroso exitos. Saldo actual: {self.__saldo}")
         else:
@@ -22,17 +23,16 @@ class CuentaBancaria:
         return self.__saldo
     
   
+    # @property
+    # def saldo(self):
+    #     return self.__saldo
     
-    @property
-    def saldo(self):
-        return self.__saldo
-    
-    @saldo.setter
-    def saldo(self, valor):
-        if isinstance(valor, float) and valor >=0:
-            self.__saldo += valor
-        else:
-             raise ValueError("No se admiten valores negativos para el saldo")
+    # @saldo.setter
+    # def saldo(self, valor):
+    #     if isinstance(valor, float) and valor >=0:
+    #         self.__saldo += valor
+    #     else:
+    #          raise ValueError("No se admiten valores negativos para el saldo")
     
 
 
