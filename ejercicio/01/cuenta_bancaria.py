@@ -36,9 +36,9 @@ class CuentaBancaria:
     
 
 
-cuenta = CuentaBancaria(10000)
-cuenta.depositar(50)
-cuenta.retirar(4000)
-print(f"Saldo final: {cuenta.consultar_saldo()}")
+# cuenta = CuentaBancaria(10000)
+# cuenta.depositar(50)
+# cuenta.retirar(4000)
+# print(f"Saldo final: {cuenta.consultar_saldo()}")
 
 

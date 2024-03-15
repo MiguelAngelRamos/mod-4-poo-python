@@ -2,6 +2,7 @@ from cuenta_bancaria import CuentaBancaria
 
 def menu():
     cuenta = CuentaBancaria()  # Creas una instancia de CuentaBancaria
+   
     while True:
         print("\nCuenta Bancaria")
         print("1. Consultar Saldo")
