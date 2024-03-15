@@ -21,6 +21,10 @@ class Persona:
         # validacion tienes permiso?
         return self.__edad
     
+    # @edad.setter
+    # def edad(self, valor):
+    #     self.__edad = valor
+
     @edad.setter
     def edad(self, valor):
         if isinstance(valor, int) and 0 <= valor <= 120:
@@ -30,6 +34,18 @@ class Persona:
         
 persona = Persona("Sofia", 27)
 print(persona.nombre) # get
-# set
-persona.nombre = 10000
+persona.nombre = "Catalina" # set
+print(persona.nombre) # get
+
+
+try:
+    print(persona.__nombre)
+    # _NombreClase__nombreAtributo
+    # _Persona__nombre
+    # name mangling
+except AttributeError as e:
+    print(e)
+
 print(persona.nombre)
+
+
