@@ -1,0 +1,1 @@
+Modelar un Sistema que nos permita implementar los métodos comunes de los vehiculos para dejar en evidencia el polimorfismo. el metodo que genera el "muchas formas", debe reflejar el comportamiento especifico de cada tipo de Vehiculo.
