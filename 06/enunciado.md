@@ -1,0 +1,1 @@
+Modelar un sistema para una tienda de música, la tienda vende diferentes tipos de instrumentos, cada instrumento puede ser tocado, pero el sonido que se produce de cada instrumento es diferente.
